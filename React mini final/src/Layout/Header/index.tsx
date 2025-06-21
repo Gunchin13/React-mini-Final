@@ -56,35 +56,20 @@ const Header = () => {
       </div>
       <div className="pt-20" >
         <div className="flex justify-center">
-          {/* <ul >
-            <li>
-              <Link to="/">Home</Link>
-              <Link to="/collection">collection</Link>
-              <Link to="/shop">shop</Link>
-            </li>
-          </ul> */}
-
+           
 
          <div className="">
          <ul className="flex gap-5 cursor-pointer ">
-            <li className=" cursor-pointer ">Home</li>
-            <li className="">Collection</li>
-            <li>Shop</li>
-            <li>OurWines</li>
-            <li>Restaurant</li>
-            <li>Pages</li>
-            <li>Tour & Tasting</li>
-          </ul>
+            <li className="cursor-pointer"><Link to="/">Home</Link></li>
+            <li><Link to="collection">Collection</Link></li>
+            <li><Link to="shop">Shop</Link></li>
+            <li><Link to="ourwines">OurWines</Link></li>
+            <li><Link to="tourtasting">Tourtasting</Link></li>
+            <li><Link to="restaurant">Restaurant</Link></li>
+            <li><Link to="/">Pages</Link></li>
+           </ul>
          </div>
-          {/* <ul className='flex gap-12  '>
-            {
-              navbarItems?.map((item,index)=>(
-                <li key ={index} className='text-black hover:text-[#c1001c] transition-colors duration-200 cursor-pointer' >
-                {item.title} 
-                </li>
-              ))
-            }
-          </ul> */}
+         
 
         </div>
       </div>

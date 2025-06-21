@@ -1,6 +1,6 @@
 const WineCard = () => {
   return (
-    <div className="relative pb-20 pt-10">
+    <div className="relative pb-20 ">
       <div className="w-full h-screen bg-fixed bg-center bg-cover" style={{ backgroundImage: 'url("https://dt-wine.myshopify.com/cdn/shop/files/parallax-bg.jpg?v=1613700990")' }}>
         <div className="absolute inset-0 opacity-40"></div>
 

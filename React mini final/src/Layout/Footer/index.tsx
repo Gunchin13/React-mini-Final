@@ -4,10 +4,9 @@ import { IoMdMail } from "react-icons/io"
 const Footer = () => {
   return (
   <div className="flex gap-5 relative pt-15  ">
-    <img src="https://dt-wine.myshopify.com/cdn/shop/files/footer_46a4e8fb-eedd-4ab8-9889-0511b7a7a03d.jpg?v=1623125003" className="h-100 w-800 object-cover" alt="" />
-    
-   <div className="absolute flex gap-60 leading-10 p-10 pl-20">
-   <div>
+    <img src="https://dt-wine.myshopify.com/cdn/shop/files/footer_46a4e8fb-eedd-4ab8-9889-0511b7a7a03d.jpg?v=1623125003" className="h-100 w-800 object-cover" alt="" />  
+    <div className="absolute flex gap-60 leading-10 p-10 pl-20">
+    <div>
       <h1 className="font-bold text-xl ">Help</h1>
       <ul>
         <li>Search</li>
